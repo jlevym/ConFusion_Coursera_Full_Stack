@@ -84,8 +84,8 @@
                     <div class="modal-body">
                         <form class="form-inline">
                               <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email">
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="email" class="form-control has-feedback " placeholder="Email">
+                                <input type="password" class="form-control has-feedback" placeholder="Password">
                                 <input type="checkbox" class="form-control" ><span>Remember Me</span>
                                </div>
                               <button type="submit" class="btn btn-primary">Sign In</button>
@@ -103,7 +103,7 @@
             <!-- Modal content-->
                 <div class="modal-content" style="color: black">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <button type="btn btn-info" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Reserve a Table </h4>
                     </div>
                     <div class="modal-body">
@@ -127,7 +127,7 @@
 
                     <div class="btn-group" data-toggle="buttons" style="left:20px">
                           <label class="btn btn-success active">
-                            <input type="radio" name="options" id="option1" autocomplete="off" checked> No Smoking
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Non Smoking
                           </label>
                           <label class="btn btn-danger">
                             <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
@@ -319,7 +319,7 @@
                          <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                     </div>
-                     <div class=" media-right ">
+                     <div class=" media-right media-middle">
                         <a href="#">
                         <img class="media-object img-thumbnail"
                          src="img/buffet.png" alt="Buffet">
@@ -406,10 +406,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!--tooltip javascript-->
-    <script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-         });
-    </script>
+   
 
 </body></html>
