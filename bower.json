@@ -1,0 +1,24 @@
+{
+  "name": "confusion",
+  "homepage": "https://github.com/jlevym/ConFusion_Coursera_Full_Stack",
+  "authors": [
+    "jeffrey levy"
+  ],
+  "description": "Website for Coursera Full Stack Course",
+  "main": "index.html",
+  "keywords": [
+    "confusion"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}
