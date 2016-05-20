@@ -60,7 +60,7 @@
 
 
                  <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <li><a id="loginIcon" data-target="#loginModal">
                     <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
@@ -189,7 +189,8 @@
                     <p style="padding:20px;"></p>
                     <div class="btn-group" role="group" aria-label="...">
                         <!-- assignment-3 update reserve button to modal-->
-                       <a data-toggle="modal" data-target="#reserveModal" type="button" class="btn btn-warning btn-block">Reserve table
+                        <!-- assignment-4 use javascript instead of data-toggle-->
+                       <a id="reserveBtn" data-target="#reserveModal" type="button" class="btn btn-warning btn-block">Reserve table
                         </a>
                         <!--end of modal reserve button-->
                     </div>
@@ -420,7 +421,17 @@
                         $("#carousel-play").click(function(){
                 $("#mycarousel").carousel('cycle');
             });
+
+             $("#loginIcon").click(function(){
+                    $("#loginModal").modal();
+            });               
+
+             $("#reserveBtn").click(function(){
+                    $("#reserveModal").modal();
+            });               
+
         });
     </script>
+
 
 </body></html>
